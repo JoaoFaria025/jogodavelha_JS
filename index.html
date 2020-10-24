@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da velha</title>
+</head>
+<body style="background-image: url(img/Protruding-Squares.svg">
+    <main>
+        <p>Agora é a vez do:</p>
+        <img src="" alt="" width="80" height="80">
+    </main>
+    <section>
+        <div class="tabuleiro">
+            <div id="p11" class="joga" joga=""></div><!--id serve para monitorarmos as peças movidas para conseguir trabalhar com a função validaWinner-->
+            <div id="p12" class="joga" joga=""></div>
+            <div id="p13" class="joga" joga=""></div>
+    
+            <div id="p21" class="joga" joga=""></div>
+            <div id="p22" class="joga" joga=""></div>
+            <div id="p23" class="joga" joga=""></div>
+    
+            <div id="p31" class="joga" joga=""></div>
+            <div id="p32" class="joga" joga=""></div>
+            <div id="p33" class="joga" joga=""></div>
+        </div>
+            <input id="button" onclick="window.location.reload()" value="New Game" type="button"><!--att a pag para um new game-->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
